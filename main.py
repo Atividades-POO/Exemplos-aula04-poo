@@ -74,10 +74,10 @@ from b import B
 # 3.1 crie uma instância da classe b
 b1 = B(10) # cria um objeto da classe b com valor 10
 # 3.2 atribua um valor ao atributo _valor
-b1.valor(20) # atribui o valor 20 ao atributo _valor
+b1.b(20) # atribui o valor 20 ao atributo _valor
 # 3.3 atribua um valor ao atributo __valor2
-b1.valor2(30) # atribui o valor 30 ao atributo __valor2
+b1.b2(30) # atribui o valor 30 ao atributo __valor2
 # 3.4 veja o valor do atributo _valor
-print(b1.valor()) # vai imprimir 20
+print(b1.b()) # vai imprimir 20
 # 3.5 veja o valor do atributo __valor2
-print(b1.valor2()) # vai imprimir 30
+print(b1.b2()) # vai imprimir 30
