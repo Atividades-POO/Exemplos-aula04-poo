@@ -98,3 +98,10 @@ p1 = Pro('geladeira', 1000) # cria um objeto da classe Produto com valor 1000
 print(f'O produto {p1.nome} custa {p1.preco}') # vai imprimir o produto geladeira custa 1000
 # calcule o desconto do produto
 print(f'O produto {p1.nome}, com desconto de 10%, custa {p1.desconto(10)}') # vai imprimir o produto geladeira, com desconto de 10%, custa 900
+#
+# 4.2 crie uma instância da classe Produto
+p2 = Pro('fogão', 500) # cria um objeto da classe Produto com valor 500
+print(f'O produto {p2.nome} custa {p2.preco}') # vai imprimir o produto fogão custa 500
+# calcule o desconto do produto
+print(f'O produto {p2.nome}, com desconto de 5%, custa {p2.desconto(5)}') # vai imprimir o produto fogão, com desconto de 10%, custa 475
+
