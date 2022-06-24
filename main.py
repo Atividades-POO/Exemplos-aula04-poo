@@ -62,7 +62,7 @@ print(dir(a1))  # vai imprimir os atributos da classe
 
 
 #
-print("-" * 20)
+print("-" * 20)W
 print()
 #####################################################
 # nessa parte é vamos aprender o uso do get e set em atributos de classe python
