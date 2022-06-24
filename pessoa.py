@@ -1,5 +1,5 @@
 #
-# criar a classe pessoa
+# 1 - criar a classe pessoa
 class Pessoa:
   def __init__(self, nome, login = False, logoff = False): # inicializador
     self.nome = nome # atributo
