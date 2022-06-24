@@ -81,3 +81,15 @@ b1.b2 = 30 # atribui o valor 30 ao atributo __valor2
 print(b1.b) # vai imprimir 20
 # 3.5 veja o valor do atributo __valor2
 print(b1.b2) # vai imprimir 30
+
+
+
+#
+print("-" * 20)
+print()
+#####################################################
+# caso a classe já tenha atributos e que não sejam privados ou protegidos, ainda assim, podemos usar o get e set
+# para acessar eles
+#
+# 4 - importe o arquivo c.py
+from c import Produto as Pro
