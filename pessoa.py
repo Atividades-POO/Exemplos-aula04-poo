@@ -8,7 +8,7 @@ class Pessoa:
 
   def logar(self):
     if self.login:
-      print(f"{self.nome} já está logado no sistema!")
+      print(f"{self.nome}, já está logado no sistema!")
       return
     print(f"Bem vindo {self.nome}, você logou no sistema.")
     self.login = True
@@ -16,7 +16,7 @@ class Pessoa:
 
   def sair(self):
     if not self.login:
-      print(f"{self.nome} não está logado no sistema!")
+      print(f"{self.nome}, não está logado no sistema!")
       return
     print(f"{self.nome}, você saiu do sistema.")
     self.login = False
