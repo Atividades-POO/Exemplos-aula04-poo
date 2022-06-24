@@ -20,4 +20,4 @@ class Pessoa:
       return # sai do método sair
     self.login = False  # não está logado no sistema e imprime mensagem
     print(f"{self.nome}, você saiu do sistema.") # se estiver logado
-    self.logoff = True # está logado no sistema 
+    self.logoff = True # está logado no sistema
