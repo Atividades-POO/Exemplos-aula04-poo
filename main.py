@@ -40,3 +40,23 @@ a1.set_valor(20) # atribui o valor 20 ao atributo _valor
 print(a1.get_valor()) # vai imprimir 20
 
 # quando o atributo __valor2 é protegido, não podemos acessar o valor
+# se tentarmos, o programa vai gerar um erro
+#
+# print(a1.__valor2) # vai gerar um erro
+#
+# especialmente, se tentarmos acessar o valor do atributo __valor2
+# sem o prefixo __, o programa vai gerar um erro
+# nessa situação, podemos usar o get para acessar o valor do atributo
+#
+a1.set_valor2(30) # atribui o valor 30 ao atributo __valor2
+print(a1.get_valor2()) # vai imprimir 30
+#
+# existe a uma situação que podemos acessar o valor do atributo __valor2 abaixo:
+# (essa forma deve ser evitado, pois o atributo __valor2 é protegido)
+# ( veremos apenas para conhecimento )
+a1._A__valor2 = 40 # atribui o valor 40 ao atributo __valor2
+print(a1._A__valor2) # vai imprimir 40
+# é possivel ver essa forma usando o DIR da classe
+print(dir(a1))  # vai imprimir os atributos da classe
+# dentre os atributos da classe, podemos ver o atributo _A__valor2
+
