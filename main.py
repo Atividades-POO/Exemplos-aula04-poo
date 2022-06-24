@@ -93,3 +93,8 @@ print()
 #
 # 4 - importe o arquivo c.py
 from c import Produto as Pro
+# 4.1 crie uma instância da classe Produto
+p1 = Pro('geladeira', 1000) # cria um objeto da classe Produto com valor 1000
+print(f'O produto {p1.nome} custa {p1.preco}') # vai imprimir o produto geladeira custa 1000
+# calcule o desconto do produto
+print(f'O produto {p1.nome}, com desconto de 10%, custa {p1.desconto(10)}') # vai imprimir o produto geladeira, com desconto de 10%, custa 900
