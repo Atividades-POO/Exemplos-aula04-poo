@@ -60,3 +60,10 @@ print(a1._A__valor2) # vai imprimir 40
 print(dir(a1))  # vai imprimir os atributos da classe
 # dentre os atributos da classe, podemos ver o atributo _A__valor2
 
+
+#
+print("-" * 20)
+print()
+#####################################################
+# nessa parte é vamos aprender o uso do get e set em atributos de classe python
+# forma correta de uso de acesso a atributos privados e protegidos em classes python
