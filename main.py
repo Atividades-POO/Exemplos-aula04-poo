@@ -52,7 +52,7 @@ a1.set_valor2(30) # atribui o valor 30 ao atributo __valor2
 print(a1.get_valor2()) # vai imprimir 30
 #
 # existe a uma situação que podemos acessar o valor do atributo __valor2 abaixo:
-# (essa forma deve ser evitado, pois o atributo __valor2 é protegido)
+# (essa forma deve ser evitado, pois, o atributo __valor2 é protegido)
 # ( veremos apenas para conhecimento )
 a1._A__valor2 = 40 # atribui o valor 40 ao atributo __valor2
 print(a1._A__valor2) # vai imprimir 40
@@ -62,8 +62,22 @@ print(dir(a1))  # vai imprimir os atributos da classe
 
 
 #
-print("-" * 20)W
+print("-" * 20)
 print()
 #####################################################
 # nessa parte é vamos aprender o uso do get e set em atributos de classe python
 # forma correta de uso de acesso a atributos privados e protegidos em classes python
+# vejamos como fica mais simplificado o acesso aos atributos privados e protegidos
+#
+# 3 - importe o arquivo b.py
+from b import B
+# 3.1 crie uma instância da classe b
+b1 = B(10) # cria um objeto da classe b com valor 10
+# 3.2 atribua um valor ao atributo _valor
+b1.valor(20) # atribui o valor 20 ao atributo _valor
+# 3.3 atribua um valor ao atributo __valor2
+b1.valor2(30) # atribui o valor 30 ao atributo __valor2
+# 3.4 veja o valor do atributo _valor
+print(b1.valor()) # vai imprimir 20
+# 3.5 veja o valor do atributo __valor2
+print(b1.valor2()) # vai imprimir 30
