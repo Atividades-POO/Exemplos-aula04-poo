@@ -15,6 +15,8 @@ p1.sair()
 print("-" * 20)
 print()
 #####################################################
+# nessa parte é para entender o uso do get e set em atributos de classe
+
 # 2 - importe o arquivo a.py
 from a import A
 # 2.1 crie uma instância da classe a
@@ -27,7 +29,7 @@ a1 = A(10) # cria um objeto da classe a com valor 10
 #
 # a1._valor = 10
 #
-# podemo usar o dir para ver os atributos da classe
+# podemos usar o dir para ver os atributos da classe
 print(dir(a1)) # vai imprimir os atributos da classe
 # depois comente essa linha acima
 #
@@ -37,3 +39,4 @@ a1.set_valor(20) # atribui o valor 20 ao atributo _valor
 # podemos acessar o valor do atributo _valor abaixo:
 print(a1.get_valor()) # vai imprimir 20
 
+# quando o atributo __valor2 é protegido, não podemos acessar o valor
