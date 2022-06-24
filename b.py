@@ -13,17 +13,17 @@ class B:
   # get
   @property # @propperty é decorador de acesso get
   def b(self): # método de instância
-    return self._b  # Retorna o conteudo de _valor
+    return self._b  # Retorna o conteudo de _b
 
   @property
   def b2(self): # método de instância
-    return self.__b2  # Retorna o valor de __valor2
+    return self.__b2  # Retorna o valor de __b2
 
   # set
   @b.setter # @nomeAtributo.setter é decorador de acesso set
-  def valor(self, valor): # seta o valor do atributo _valor
-    self._b = valor # Atribui o valor ao atributo _valor
+  def b(self, valor): # seta o valor do atributo _valor
+    self._b = valor # Atribui o valor ao atributo _b
 
   @b2.setter
-  def valor2(self, valor): # seta o valor do atributo __valor2
-    self.__b2 = valor # Atribui o valor ao atributo __valor2
+  def b2(self, valor): # seta o valor do atributo __b2
+    self.__b2 = valor # Atribui o valor ao atributo __b2
