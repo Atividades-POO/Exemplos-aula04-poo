@@ -1,5 +1,5 @@
 #
-# criar a class a
+# 2 - criar a class a
 class A:
   def __init__(self, valor): # inicializador
     self._valor = valor # atributo
