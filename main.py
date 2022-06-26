@@ -1,3 +1,10 @@
+
+# Autores:
+# Michel Silva
+# Emanuel Frank
+# Carlos Eduardo
+# data: 26/06/2022
+#
 #
 # 1 - importe o arquivo pessoa.py e crie um alias para a classe Pessoa;
 from pessoa import Pessoa as P
