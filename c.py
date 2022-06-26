@@ -1,3 +1,10 @@
+
+# Autores:
+# Michel Silva
+# Emanuel Frank
+# Carlos Eduardo
+# data: 26/06/2022
+#
 #
 # 4 - criar a classe Produto e usar apenas atributos publicos (nome e preço)
 # crie um método desconto que retorna o valor do desconto
