@@ -1,3 +1,10 @@
+
+# Autores:
+# Michel Silva
+# Emanuel Frank
+# Carlos Eduardo
+# data: 26/06/2022
+#
 #
 # 3 - criar a class B e incluir os decoradores de acesso get e set
 # para um metodo de instância possa realizar o acesso ao atributo privado e protegido
